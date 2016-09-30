@@ -41,11 +41,11 @@
  
  
 <script type="text/javascript">
-/*window.onLoadCallback = function(){
+window.onLoadCallback = function(){
   gapi.auth2.init({
       client_id: '783793860345-stqlaq01bi4jbb0isdetd68vdbsdvqqv.apps.googleusercontent.com'
     });
-}*/
+}
 
 function onSignIn(googleUser) {
   var profile = googleUser.getBasicProfile();
